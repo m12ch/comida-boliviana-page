@@ -1,0 +1,15 @@
+.padre{
+    background-color: aquamarine;
+}
+.padre .hijo1
+{
+    background-color: red;
+}
+.padre .hijo2
+{
+    background-color: yellow;
+}
+.padre .hijo3
+{
+    background-color: green;
+}

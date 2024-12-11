@@ -1,0 +1,174 @@
+.p1{
+    margin-top: 30px;
+    padding: 5px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "espacio espacio"
+                         "logobol titulo"
+                         "content content"
+                         "product1 product2"
+                         "cont2 cont2"
+                         "product3 product4"
+                         "cont3 cont3"
+                         "carru carru"
+                          ;
+    /*align-items: center;*/
+    gap: 5px;
+}
+.p1 .espacio{
+    grid-area: espacio;
+}
+.p1 .logobol{
+    grid-area: logobol;
+    
+}
+.p1 .titulo{
+    grid-area: titulo;
+    text-align: center;
+    display: flex;
+    place-items: center;
+    
+}
+.p1 .carru{
+    grid-area: carru;
+}
+h1{
+    font-size: 45px;
+}
+h3{
+    font-size: 34px;
+}
+.p1 .logobol img {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: auto; /* Mantiene las proporciones */
+    object-fit: contain; /* Ajusta sin recortar la imagen */
+}.p1 .content{
+    padding: 10px;
+    grid-area: content;
+}
+p{
+    font-size: 24px;
+    text-align: left;
+}
+.p1 .product1{
+    grid-area: product1;
+}
+.p1 .product2{
+    grid-area: product2;
+}
+.p1 .cont2{
+    grid-area: cont2;
+}
+.p1 .product3{
+    grid-area: product3;
+}
+.p1 .product4{
+    grid-area: product4;
+}
+li{
+    font-size: 24px;
+    text-align: left;
+}
+.p1 .cont3{
+    grid-area: cont3;
+}
+@media screen and (max-width: 768px) {
+    .p1{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "espacio"
+                         "logobol"
+                         "titulo"
+                         "content"
+                         "product1"
+                         "product2"
+                         "cont2"
+                         "product3"
+                         "product4"
+                         "cont3"
+                         "carru"
+                          ;
+    /*align-items: center;*/
+    gap: 5px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    li{
+        font-size: 15px;
+    }
+  }
+  @media screen and (max-width: 560px) {
+    .p1{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "espacio"
+                         "logobol"
+                         "titulo"
+                         "content"
+                         "product1"
+                         "product2"
+                         "cont2"
+                         "product3"
+                         "product4"
+                         "cont3"
+                         "carru"
+                          ;
+    /*align-items: center;*/
+    gap: 5px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    li{
+        font-size: 15px;
+    }
+  }
+    @media screen and (max-width: 440px) {
+        .p1{
+        margin-top: 130px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "espacio"
+                             "logobol"
+                             "titulo"
+                             "content"
+                             "product1"
+                             "product2"
+                             "cont2"
+                             "product3"
+                             "product4"
+                             "cont3"
+                             "carru"
+                              ;
+        /*align-items: center;*/
+        gap: 5px;
+        }
+        h1{
+            font-size: 30px;
+        }
+        h3{
+            font-size: 20px;
+        }
+        p{
+            font-size: 15px;
+        }
+        li{
+            font-size: 15px;
+        }
+    }

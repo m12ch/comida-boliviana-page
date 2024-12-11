@@ -1,0 +1,96 @@
+
+.menu .dos .titulo{
+    color: white;
+}
+.menu .tres .me-auto .alt .alt1{
+    color: red;
+    font-size: 19px;
+}
+.menu .tres .me-auto .vall .vall1{
+    color: yellow;
+    font-size: 19px;
+}
+.menu .tres .me-auto .lla .lla1{
+    color: green;
+    font-size: 19px;
+}
+.formatolink{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+.formatosublink{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.lpz{
+    margin-top: 3%;
+}
+.oru{
+    margin-top: 3%;
+}
+.pto{
+    margin-top: 3%;
+}
+.coch{
+    margin-top: 3%;
+}
+.chuqui{
+    margin-top: 3%;
+}
+.tari{
+    margin-top: 3%;
+}
+.stcz{
+    margin-top: 3%;
+}
+.bni{
+    margin-top: 3%;
+}
+.pnd{
+    margin-top: 3%;
+}
+
+.tarj{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.tarj1 {
+    flex: 0 0 calc(33.33% - 10px); /* Cada div ocupa 1/3 del ancho menos el espacio del gap */
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    place-items: center;
+    height: 90%;
+}
+@media screen and (max-width: 768px) {
+    h1{
+        margin-top: 30px;
+    }
+    img{
+        width: 100%;
+        
+    }
+}
+@media screen and (max-width: 560px) {
+    h1{
+        margin-top: 30px;
+    }
+    img{
+        width: 100%;
+        
+    }
+}
+@media screen and (max-width: 440px) {
+    h1{
+        margin-top: 70px;
+    }
+    img{
+        width: 100%;
+    }
+
+}
